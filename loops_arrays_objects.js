@@ -10,8 +10,17 @@ sports.push('darts');
 
 console.log('sports:', sports);
 
-var finalIndexPos = sports.length - 1;
+// var finalIndexPos = sports.length - 1;
+// var lastSport = sports[finalIndexPos];
+// console.log(lastSport);
 
-var lastSport = sports[finalIndexPos];
+var lastSport = sports.pop();
+console.log('lastSport:', lastSport);
 
-console.log(lastSport);
+sports.unshift('basketball');
+console.log('sports:', sports);
+
+sports.shift();
+console.log('sports:', sports);
+
+console.log('returning slice:', sports.slice(1, 2));
