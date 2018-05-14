@@ -8,4 +8,4 @@ else {
   var message = "1 is not greater than 0"
 }
 
-console.log(message);
+console.log("Result:", message);
