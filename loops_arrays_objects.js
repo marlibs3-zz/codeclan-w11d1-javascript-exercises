@@ -8,4 +8,10 @@ console.log('second sport:', sports[1]);
 sports.push('snooker');
 sports.push('darts');
 
-console.log(sports);
+console.log('sports:', sports);
+
+var finalIndexPos = sports.length - 1;
+
+var lastSport = sports[finalIndexPos];
+
+console.log(lastSport);
